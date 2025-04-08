@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("/pexels-blue.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-from {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 40px 30px;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+.login-from h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.input-field {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.input-field input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.input-field i {
+  color: white;
+}
+
+.login-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.or-text {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.social-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-btns button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.social-btns button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
